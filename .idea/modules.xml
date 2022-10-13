@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/accountservice/accountservice.iml" filepath="$PROJECT_DIR$/accountservice/accountservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/microservice_docker.iml" filepath="$PROJECT_DIR$/.idea/microservice_docker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/noticationservice/noticationservice.iml" filepath="$PROJECT_DIR$/noticationservice/noticationservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/statisticservice/statisticservice.iml" filepath="$PROJECT_DIR$/statisticservice/statisticservice.iml" />
+    </modules>
+  </component>
+</project>

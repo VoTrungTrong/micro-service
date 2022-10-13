@@ -1,0 +1,25 @@
+server:
+  port: 9080
+
+spring:
+  # Name project in project micro-service
+  application:
+    name: account-service
+  # Connect database local/server
+  datasource:
+    url: jdbc:mysql://localhost:3306/cloud?createDatabaseIfNotExist=true
+    username: root
+    password: 123456789
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+      hibernate:
+        ddl-auto: update
+
+## swagger-ui custom path
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+##level. có dấu '.' để không bị error run program
+logging:
+  level. : debug
