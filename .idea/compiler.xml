@@ -20,15 +20,15 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="account-service" target="1.8" />
-      <module name="accountservice" target="1.8" />
+      <module name="accountservice" target="11" />
       <module name="cloud-config-server" target="11" />
       <module name="cloud-gateway" target="11" />
       <module name="department-service" target="11" />
       <module name="hystrix-dashboard" target="11" />
       <module name="notication-service" target="1.8" />
-      <module name="noticationservice" target="1.8" />
+      <module name="noticationservice" target="11" />
       <module name="service-registry" target="11" />
-      <module name="statisticservice" target="1.8" />
+      <module name="statisticservice" target="11" />
       <module name="user-service" target="11" />
     </bytecodeTargetLevel>
   </component>

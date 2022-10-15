@@ -25,6 +25,15 @@ spring:
               args:
                 name: DEPARTMENT-SERIVCE
                 fallbackuri: forward:/api/departmentServiceFallBack
+        - id: NOTICATION-SERVICE
+          uri: lb://NOTIFICATION-SERIVCE
+          predicates:
+            - Path=/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: NOTIFICATION-SERIVCE
+                fallbackuri: forward:/api/notificationServiceFallBack
 
 hystrix:
   command:

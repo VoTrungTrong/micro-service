@@ -1,5 +1,5 @@
 server:
-  port: 9083
+  port: 9003
   # default
   servlet:
     context-path: /
@@ -20,12 +20,12 @@ spring:
           auth: true
           starttls:
             enable: true
+  application:
+    name: NOTIFICATION-SERIVCE
+  zipkin:
+    base-url: http://127.0.0.1:9411/
 
 ## swagger-ui custom path
 springdoc:
   swagger-ui:
-    path: /swagger-ui.html
-
-##level. có dấu '.' để không bị error run program
-logging:
-  level. : debug
+    path: swagger-ui.html
