@@ -28,7 +28,7 @@ spring:
         - id: NOTICATION-SERVICE
           uri: lb://NOTIFICATION-SERIVCE
           predicates:
-            - Path=/**
+            - Path= /api/notification/**
           filters:
             - name: CircuitBreaker
               args:
